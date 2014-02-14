@@ -5,13 +5,21 @@
  * Project Name: STANLEY - Free Bootstrap 3 Theme
  * Version: 1.0
  * URL: http://blacktie.co
+
+Colors:
+green = #52b84b;
+gray = #ccc;
+yellow = #e8ab0c;
+blue = #2b3086;
+
+
  */
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 body {
   	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
+  	font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -22,7 +30,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: #333;
 }
@@ -32,8 +40,6 @@ h1 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-
-
 
 /* Paragraph & Typographic */
 p {
@@ -86,21 +92,23 @@ a:after {
 
 .navbar {
 	text-transform: uppercase;
+	font-weight: bold;
 	margin-bottom: 0px;
 }
 
 .navbar-inverse {
-	padding-bottom: 70px;
-	padding-top: 70px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 .navbar-inverse {
-	background-color: #1abc9c;
-	border-color: #16a085;
+	background-color: #e8ab0c;
+	border-color: #e8ab0c;
 }
 
 .navbar-inverse .navbar-nav > li > a {
 	color: white;
+	margin-top: 60px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -119,6 +127,10 @@ a:after {
 
 .navbar-inverse .navbar-toggle {
 	border-color: transparent;
+}
+
+.navbar-toggle {
+	margin-top: 70px;
 }
 
 .progress-bar-theme {
