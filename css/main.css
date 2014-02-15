@@ -54,7 +54,7 @@ p {
 
 /* Links */
 a {
-    color: #e8ab0c;
+    color: #8cc643;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -103,8 +103,8 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color: #e8ab0c;
-	border-color: #e8ab0c;
+	background-color: #242424;
+	border-color: #242424;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -113,7 +113,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: #222222;
+	color: #8cc643;
 }
 
 .navbar-brand {
