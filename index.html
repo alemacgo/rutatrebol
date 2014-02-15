@@ -14,10 +14,15 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/toast.css" rel="stylesheet">
+
+
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/toast.js"></script>
     <script src="js/hover.zoom.js"></script>
     <script src="js/hover.zoom.conf.js"></script>
 
@@ -34,7 +39,7 @@
     <div class="navbar navbar-inverse navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button id="menu" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -43,10 +48,10 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="work.html">Quiénes somos</a></li>
-            <li><a href="about.html">Participa</a></li>
-            <li><a href="blog.html">Recursos</a></li>
-            <li><a href="contact.html">Logros</a></li>
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">Participa</a></li>
+            <li><a href="#">Recursos</a></li>
+            <li><a href="#">Logros</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -55,69 +60,67 @@
 	<!-- ==== SECTION DIVIDER1 -->
 	<section class="section-divider textdivider divider1">
 		<div class="container">
-			<h1>DESIGN EXPAND BOUNDARIES</h1>
-			<hr>
-			<p>To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity.</p>
-			<button type="button" class="btn btn-lg btn-success">¡Únete! ☺</button>
+			<div class="row">
+				<div class="col-lg-offset-7 col-lg-5">
+				<h1>Por una Venezuela más preparada para el futuro</h1>
+				<p>Apoyamos el desarrollo profesional en <strong>ciencia, tecnología e ingeniería</strong> de jóvenes de escasos recursos.</p><p>Creemos en la <strong>enseñanza del inglés</strong> como una herramienta profesional indispensable.</p><p>Comenzamos en Venezuela y queremos expandirnos a toda Latinoamérica en el futuro.</p>
+				<button id="join" type="button" class="btn btn-lg btn-success">¡Únete! &nbsp; <i class="fa fa-smile-o fa-lg"></i></button>
+			</div>
 		</div><!-- container -->
 	</section><!-- section -->
 
-	<!-- +++++ Welcome Section +++++ -->
-	<div id="ww">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-7 centered">
-					<img src="img/user.png" alt="Logo">
-					<h1>Hi, I am Nobody!</h1>
-					<p>Hello everybody. I'm Stanley, a free handsome bootstrap theme coded by BlackTie.co. A really simple theme for those wanting to showcase their work with a cute & clean style.</p>
-					<p>Please, consider to register to <a href="http://eepurl.com/IcgkX">our newsletter</a> to be updated with our latest themes and freebies. Like always, you can use this theme in any project freely. Share it with your friends.</p>
-				</div><!-- /col-lg-8 -->
-				<div class="col-lg-5 centered">
-				<img src="img/user.png" alt="Logo">
-				<h1>Hi, I am Stanley!</h1>
-				<button type="button" class="btn btn-lg btn-success">Success</button>
-				<p>Hello everybody. I'm Stanley, a free handsome bootstrap theme coded by BlackTie.co. A really simple theme for those wanting to showcase their work with a cute & clean style.</p>
-				<p>Please, consider to register to <a href="http://eepurl.com/IcgkX">our newsletter</a> to be updated with our latest themes and freebies. Like always, you can use this theme in any project freely. Share it with your friends.</p>
-				</div><!-- /col-lg-8 -->
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /ww -->
-	
-	
-	<!-- +++++ Projects Section +++++ -->
-	
-	<div class="container pt">
-		<div class="row mt centered">	
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="img/portfolio/port01.jpg" alt="" /></a>
-				<p>APE</p>
+	<div class="container" id="team" name="team">
+		<div class="row white">
+			<h1 class="centered">Entérate de nuestras últimas historias</h1>
+			<div class="col-lg-4 story">
+				<a href="#i1"><img id="i1" class="img" src="img/stories/anita.jpg" alt=""></a>
+				<p>Ana Rosa vive en Canoabo, Edo. Carabobo, y sueña con ser ingeniero civil cuando sea grande. En su colegio no ha tenido la oportunidad de aprender inglés.</p><p>Gracias a su patrocinante está estudiando inglés en FUNDAUC desde junio de 2013.</p>
+				<center><button id="b1" type="button" class="btn btn-lg btn-info">Leer más</button></center>
+
+			</div><!-- col-lg-3 -->
+			<div class="col-lg-4 story">
+				<a href="#i2"><img id="#i2" class="img" src="img/stories/jose.jpg" alt=""></a>
+				<p>José Miguel vive en Ocumare, Edo. Miranda. Le solía costar trabajo las matemáticas, pero la situación económica de su familia no le permite costearle un profesor privado.</p>
+				<p>Ahora está en tareas dirigidas todos los martes y jueves, y sus notas han mejorado mucho.</p>
+				<center><button id="b2" type="button" class="btn btn-lg btn-info">Leer más</button></center>
+			</div><!-- col-lg-3 -->
+			<div class="col-lg-4 story">
+				<a href="#i3"><img id="i3" class="img" src="img/stories/otro.jpg" alt=""></a>
+				<p>¿Eres un(a) joven con dificultades económicas que quiere superarse? ¿O sabes de alguien que no tenga la posibilidad de educarse como quisiera?</p>
+				<p>Cuéntanos tu historia y haremos lo posible por conectarte con una mano amiga.</p>
+				<center><button id="b3" type="button" class="btn btn-lg btn-success">Aplica</button></center>
+			</div><!-- col-lg-3 -->
+		</div><!-- row -->
+	</div><!-- container -->
+
+<!-- ==== GREYWRAP ==== -->
+		<div id="greywrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<img class="img-responsive" src="img/collage.png" align="">
+					</div>
+					<div class="par col-lg-4">
+						<h3>Queremos conectar directamente a <strong>gente solidaria</strong> con el <strong>futuro del país</strong></h3>
+						<p>¿Qué tan comprometido estás con Venezuela?
+						Si estás dispuesto a contribuir con una pequeña parte de tu sueldo para contribuir con la formación de un joven competente, responsable y ciudadano del mundo, participa en nuestros programas.</p>
+						<center><button id="b4" class="btn btn-lg btn-success">Únete</button></center>
+					</div>					
+				</div><!-- row -->
 			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="img/portfolio/port02.jpg" alt="" /></a>
-				<p>RAIDERS</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="img/portfolio/port03.jpg" alt="" /></a>
-				<p>VIKINGS</p>
-			</div>
-		</div><!-- /row -->
-		<div class="row mt centered">	
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="img/portfolio/port04.jpg" alt="" /></a>
-				<p>YODA</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="img/portfolio/port05.jpg" alt="" /></a>
-				<p>EMPERORS</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="img/portfolio/port06.jpg" alt="" /></a>
-				<p>CHIEFS</p>
-			</div>
-		</div><!-- /row -->
-	</div><!-- /container -->
-	
-	
+			<br>
+			<br>
+		</div><!-- greywrap -->
+
+	<!-- ==== SECTION DIVIDER1 -->
+	<section class="section-divider textdivider divider2">
+		<div class="container">
+				<h1>Trabaja con nosotros como voluntario</h1>
+				<p>Involúcrate en una organización que valora la <strong>solidaridad</strong>, la <strong>superación</strong> y el <strong>compromiso</strong></p>
+				<a href="mailto:beta@rutatrebol.org" id="email" type="button" class="btn btn-lg btn-success">Escríbenos &nbsp; <i class="fa fa-envelope fa-lg"></i></a>
+		</div><!-- container -->
+	</section><!-- section -->
+
 	<!-- +++++ Footer Section +++++ -->
 	
 	<div id="footer">
@@ -151,6 +154,22 @@
 		</div>
 	</div>
 	
+	<script>
+	document.getElementById('menu').addEventListener('click', toast);
+	document.getElementById('join').addEventListener('click', toast);
+	document.getElementById('b1').addEventListener('click', toast);
+	document.getElementById('b2').addEventListener('click', toast);
+	document.getElementById('b3').addEventListener('click', toast);
+	document.getElementById('b4').addEventListener('click', toast);
+	document.getElementById('i1').addEventListener('click', toast);
+	document.getElementById('i2').addEventListener('click', toast);
+	document.getElementById('i3').addEventListener('click', toast);
+
+	function toast(){
+		console.log('a');
+		var toast2 = new Android_Toast({content: 'Hola mi amor! Aún no está listo! &nbsp; <i class="fa fa-smile-o fa-lg"></i>', duration: 3000, position: 'bottom'});
+	}
+	</script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

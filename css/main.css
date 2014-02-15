@@ -21,8 +21,8 @@ body {
   	background-color: #ffffff;
   	font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    color: #555;
+    font-size: 16px;
+    color: #000;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -54,7 +54,7 @@ p {
 
 /* Links */
 a {
-    color: #1abc9c;
+    color: #e8ab0c;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -66,7 +66,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #ccc;
     text-decoration: none;
     outline: 0;
 }
@@ -84,13 +84,14 @@ a:after {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #333;
     margin: 1em 0;
     padding: 0;
 }
 
 
 .navbar {
+	z-index: 0;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-bottom: 0px;
@@ -159,23 +160,21 @@ a:after {
 	background-color: #f2f2f2;
 }
 
-
 #footer {
-	background-color: #2f2f2f;
+	background-color: #000;
 	padding-top: 50px;
-	padding-bottom: 50px; 
+	padding-bottom: 50px;
+	color: #000;
 }
 
 #footer p {
-	color: white;
+	color: #fff;
 }
 
 #footer h4 {
-	color: white;
-	text-transform: uppercase;
 	padding-bottom: 20px;
+	color: #fff;
 }
-
 
 /* +++++ Color Wraps / Blog Page +++++ */
 
@@ -260,13 +259,13 @@ bt {
     width: 100%;
     display: table;
     max-height: 450px;
-    border-bottom: 2px solid #E6EAED;
+    /*border-bottom: 2px solid #E6EAED;*/
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    padding-top: 30px;
-    padding-bottom: 70px;
+    padding-top: 0px;
+    padding-bottom: 30px;
     margin-top: 45px;
 
 
@@ -284,14 +283,48 @@ bt {
 
     background-attachment: relative;
     
-    text-align: center;
 }
 
 .divider1 {
-	background-image: url('../img/bg/divider1.jpg');
+	background-image: url('../img/bg/hopeful.jpg');
 	margin-top: 0px;
+}
+
+.divider2 {
+	background-image: url('../img/bg/clover.jpg');
+	color: #fff;
+	text-align: center;
+	margin-top: 0;
+}
+
+.divider2 h1 {
+	color: #fff;
+}
+
+#greywrap {
+	background: #ccc;
+	margin-top: 0px;
+	padding-top: 40px;
+}
+
+.par {
+	padding-left: 30px;
 }
 
 .emoticon {
 	font-size: 2em;
+}
+
+.story {
+	/*background: #ccc;*/
+	padding: 20px 30px 20px 30px;
+}
+
+.img {
+	margin-bottom: 20px;
+}
+
+.long {
+	padding-right: 70px;
+	padding-left: 70px;
 }

@@ -820,7 +820,7 @@ pre code {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .container {
     width: 1170px;
   }
@@ -1464,7 +1464,7 @@ pre code {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .col-lg-1,
   .col-lg-2,
   .col-lg-3,
@@ -2533,8 +2533,8 @@ fieldset[disabled] .btn-success.active {
 
 .btn-info {
   color: #ffffff;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #2b3086;
+  border-color: #2b3086;
 }
 
 .btn-info:hover,
@@ -2543,8 +2543,8 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active,
 .open .dropdown-toggle.btn-info {
   color: #ffffff;
-  background-color: #39b3d7;
-  border-color: #269abc;
+  background-color: #2c6582;
+  border-color: #2c6582;
 }
 
 .btn-info:active,
@@ -4210,17 +4210,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border: 1px solid #dddddd;
 }
 
-@media (min-width: 768px) {
-  .nav-tabs.nav-justified > li > a {
-    border-bottom: 1px solid #dddddd;
-    border-radius: 4px 4px 0 0;
-  }
-  .nav-tabs.nav-justified > .active > a,
-  .nav-tabs.nav-justified > .active > a:hover,
-  .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #ffffff;
-  }
-}
 
 .nav-pills > li {
   float: left;
@@ -6631,7 +6620,7 @@ td.visible-xs {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1023px) {
   .visible-xs.visible-md {
     display: block !important;
   }
@@ -6647,7 +6636,7 @@ td.visible-xs {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .visible-xs.visible-lg {
     display: block !important;
   }
@@ -6702,7 +6691,7 @@ td.visible-sm {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1023px) {
   .visible-sm.visible-md {
     display: block !important;
   }
@@ -6718,7 +6707,7 @@ td.visible-sm {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .visible-sm.visible-lg {
     display: block !important;
   }
@@ -6773,7 +6762,7 @@ td.visible-md {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1023px) {
   .visible-md {
     display: block !important;
   }
@@ -6789,7 +6778,7 @@ td.visible-md {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .visible-md.visible-lg {
     display: block !important;
   }
@@ -6844,7 +6833,7 @@ td.visible-lg {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1023px) {
   .visible-lg.visible-md {
     display: block !important;
   }
@@ -6860,7 +6849,7 @@ td.visible-lg {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .visible-lg {
     display: block !important;
   }
@@ -6911,7 +6900,7 @@ td.hidden-xs {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1023px) {
   .hidden-xs.hidden-md,
   tr.hidden-xs.hidden-md,
   th.hidden-xs.hidden-md,
@@ -6920,7 +6909,7 @@ td.hidden-xs {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .hidden-xs.hidden-lg,
   tr.hidden-xs.hidden-lg,
   th.hidden-xs.hidden-lg,
@@ -6964,7 +6953,7 @@ td.hidden-sm {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1023px) {
   .hidden-sm.hidden-md,
   tr.hidden-sm.hidden-md,
   th.hidden-sm.hidden-md,
@@ -6973,7 +6962,7 @@ td.hidden-sm {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .hidden-sm.hidden-lg,
   tr.hidden-sm.hidden-lg,
   th.hidden-sm.hidden-lg,
@@ -7017,7 +7006,7 @@ td.hidden-md {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1023px) {
   .hidden-md,
   tr.hidden-md,
   th.hidden-md,
@@ -7026,7 +7015,7 @@ td.hidden-md {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .hidden-md.hidden-lg,
   tr.hidden-md.hidden-lg,
   th.hidden-md.hidden-lg,
@@ -7070,7 +7059,7 @@ td.hidden-lg {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1023px) {
   .hidden-lg.hidden-md,
   tr.hidden-lg.hidden-md,
   th.hidden-lg.hidden-md,
@@ -7079,7 +7068,7 @@ td.hidden-lg {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .hidden-lg,
   tr.hidden-lg,
   th.hidden-lg,
