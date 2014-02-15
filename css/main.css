@@ -300,6 +300,7 @@ bt {
 	color: #fff;
 	text-align: center;
 	margin-top: 0;
+	background-attachment: fixed;
 }
 
 .divider2 h1 {
